@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: Helvetica;
+}
+#header{
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	height: 120px;
+	width: 100vw;
+	overflow: auto;
+}
+#logo{
+	color: white;
+	position: relative;
+	float: left;
+	padding-left: 80px;
+  	top: 40%;
+	width: 50%;
+}
+#login{
+	position: relative;
+	top: 40%;
+	color: white;
+	font-size: 12px;
+	float: left;
+}
+#login input, #login label{
+	display: block;
+}
+#login div{
+	float: left;
+	margin-right: 20px;
+}
+#login p{
+	color: lightgray;
+}
+td{
+	width: 200px;
+}
+#login input[type="submit"]{
+	background-color: #4267b2;
+	border: 0;
+	white-space: nowrap;
+	color: white;
+	border-color: #29487d;
+	margin-top: 14px;
+}
+#login a{
+	color: #EEEEEE;
+	text-decoration: none;
+}
+#content{
+	background-image: linear-gradient(white, #D3D8E8);
+	overflow: auto;
+	width: 100vw;
+}
+#left{
+	float: left;
+	color: #0e385f;
+	width: 50%;
+	padding: 20px;
+}
+#right{
+	float: left;
+	padding: 20px;
+	margin-left: 20px;
+}
+#right input[type="text"]{
+	margin: 5px 0;
+	border-radius: 4px;
+	border-color: #ccd0d5;
+	height: 36px;
+	border-color: lightgray;
+}
+#right label{
+	color: gray;
+}
+select{
+	margin-right: 10px;
+}
+input[type="radio"]{
+	margin-right: 10px;
+}
+.fn{
+	width: 48%;
+}
+#gender{
+	padding: 2px;
+	border: 1px solid transparent;
+}
+#num, #upw{
+	width: 98%;
+}
+::placeholder{
+	color: #999;
+	font-size: 18px;
+}
+.tip{
+	position: relative;
+	display: inline;
+}
+#fntip,#sntip,#numtip,#pwtip{
+	font-size: 16px;
+	padding: 10px 10px;
+	z-index: 1;
+	position: absolute;
+	visibility: hidden;
+	color: white;
+	background-color: #FF5252;
+	width: 120px;
+	right: 105%;
+}
+#fntip::after,#sntip::after,#numtip::after,#pwtip::after{
+	content: "";
+  	position: absolute;
+  	top: 50%;
+  	left: 100%;
+  	margin-top: -10px;
+  	border-width: 10px;
+  	border-style: solid;
+  	border-color: transparent transparent transparent #FF5252;
+}
+.ex{
+	background-image: url("../images/!.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 39px 20px;
+}
+#right a{
+	text-decoration: none;
+}
+#right h2, #right h6{
+	margin: 10px 0;
+}
+#right h2{
+	font-weight: bold;
+	font-size: 150%;
+}
+#right h6{
+	font-weight: normal;
+	font-size: 100%;
+}
+#terms{
+	font-size: 12px;
+	margin-top: 20px;
+}
+#signup{
+	background-image: linear-gradient(#67ae55, #578843);
+	color: white;
+	margin-top: 30px;
+	font-size: 18px;
+	height: 50px;
+	width: 150px;
+	border-radius: 8px;
+}
+#page{
+	font-size: 14px;
+	margin-top: 30px;
+}
+#footer{
+	margin: 20px 100px;
+	font-size: 12px;
+}
+#footer a{
+	margin:0px 5px;
+	color: blue;
+	text-decoration: underline;
+}
+#options{
+	margin: 15px 0px;
+}
+#copyright{
+	margin: 15px 0px;
+}
